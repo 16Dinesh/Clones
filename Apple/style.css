@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* border: 2px solid red; */
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: rgb(223, 223, 223);
+}
+
+/*-------------- nav---------------   */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    background-color: rgba(24, 22, 22, 0.9);
+    padding: 10px 10px;
+    z-index: 9;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: .3rem;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(179, 177, 177);
+    margin-inline: 1.3rem;
+    font-weight: 100;
+    font-size: .9rem;
+
+    /* font-size: 40px; */
+}
+
+nav ul li a:hover {
+    color: rgb(214, 214, 214);
+}
+
+
+nav i {
+    font-size: 1.1rem;
+    margin-right: 1.9rem;
+    color: rgb(201, 201, 201);
+    margin-left: 1rem;
+}
+
+nav i:hover {
+    color: white;
+}
+
+/*-------------------------------------- dashboard  */
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+.main .img1 {
+    width: 100%;
+    height: 25rem;
+    position: absolute;
+    z-index: 0;
+    top: 20rem;
+
+}
+
+.main .info {
+    text-align: center;
+    color: white;
+    padding-top: 6rem;
+
+}
+
+.info h1 {
+    font-size: 4rem;
+}
+
+.info p {
+    font-size: 2rem;
+}
+
+.info button {
+    font-size: 1.3rem;
+    margin: 1rem;
+    background: transparent;
+    color: rgb(97, 146, 253);
+    border: none;
+}
+
+.main1 {
+    width: 100%;
+    height: 87vh;
+    background-color: rgb(247, 247, 247);
+    text-align: center;
+    color: black;
+    padding-top: 4rem;
+    position: relative;
+}
+
+
+.main1 h2 {
+    font-size: 4rem;
+}
+
+.main1 p {
+    font-size: 2rem;
+}
+
+.main1 button {
+    font-size: 1.3rem;
+    margin: 1rem;
+    background: transparent;
+    color: rgb(97, 146, 253);
+    border: none;
+}
+
+button:hover {
+    text-decoration: underline;
+}
+
+button i {
+    font-size: 1rem;
+    margin-left: .2rem;
+}
+
+.img2 {
+    position: absolute;
+    margin-top: 8rem;
+    margin-left: -60rem;
+    width: 100%;
+    height: auto;
+}
+
+/* -----------------------watches  */
+
+.watch {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+    color: white;
+    /* overflow: hidden; */
+    text-align: center;
+    padding-top: 4rem;
+    position: relative;
+}
+
+.watch h2 {
+    font-size: 3.7rem;
+}
+
+.watch h2 i {
+    margin-right: .2rem;
+    font-size: 4.3rem;
+
+}
+
+.watch h3 {
+    color: rgb(189, 9, 9);
+    font-size: 3rem;
+}
+
+.watch p {
+    font-size: 2rem;
+}
+
+.watch button {
+    font-size: 1.3rem;
+    margin: 1rem;
+    background: transparent;
+    color: rgb(97, 146, 253);
+    border: none;
+}
+
+.img3 {
+    position: absolute;
+    margin-top: 7.4rem;
+    margin-left: -60.5rem;
+    width: 100%;
+    height: auto;
+}
+
+/* /group  */
+.group {
+    width: 100%;
+    height: 200vh;
+    margin-bottom: 4rem;
+}
+
+.sec {
+    width: 49%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 4rem;
+    position: relative;
+    float: left;
+    margin-top: 3rem;
+    position: relative;
+    gap: 1rem;
+}
+
+.sec1 {
+    color: black;
+    background-color: rgb(255, 250, 250);
+    background-image: url(AppleVisionPro623-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: 54rem;
+    background-position: bottom;
+    text-align: center;
+    padding-top: 30rem;
+    margin-left: .1rem;
+}
+
+.sec h2 {
+    font-size: 3.7rem;
+}
+
+.sec h3 {
+
+    font-size: 1.5rem;
+}
+
+.sec p {
+    font-size: 1.3rem;
+}
+
+.sec button {
+    font-size: 1.3rem;
+    margin: 1rem;
+    background: transparent;
+    color: rgb(97, 146, 253);
+    border: none;
+}
+
+.sec .img4 {
+    width: 100%;
+    margin-top: 3rem;
+
+}
+
+.sec2 {
+    background-color: rgb(255, 250, 250);
+    color: black;
+    margin-top: -.1rem;
+
+}
+
+.sec .img6 {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.sec .img7 {
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.sec3 {
+    margin-top: -.1rem;
+
+
+}
+
+.sec4 {
+    color: black;
+    margin-top: -.2rem;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.sec5 {
+    color: black;
+    margin-top: -.2rem;
+    background-color: rgb(253, 253, 253);
+
+}
+
+/*------------------------------   TAG ----------------- */
+.slide {
+    width: 100%;
+    height: 80vh;
+    /* border: 1px solid black; */
+    clear: both;
+
+}
+
+.slide img {
+    padding-top: 3rem;
+    height: 60vh;
+    width: 60%;
+
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1rem;
+
+}
+
+.dots a {
+    text-decoration: none;
+    font-size: 5rem;
+    color: gray;
+    margin-inline: 1rem;
+}
+
+.dots a:hover {
+    color: rgb(17, 17, 17);
+}
+
+/* ----------------------footer part-------------------------  */
+
+.footer {
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(223, 223, 223);
+
+}
+
+.footer p {
+    /* padding: 1rem 19rem 1rem 19rem; */
+    padding: 1rem 5rem ;
+    text-align: justify;
+    font-size: .9rem;
+    color: rgb(121, 119, 119);
+    letter-spacing: .01rem;
+}
+
+.footer hr {
+    width: 90.8%;
+    /* margin: 1.2rem 19rem 1rem 19rem; */
+    margin: 1rem 3rem ;
+    height: .1rem;
+}
+
+.infobar {
+    width: auto;
+    height: auto;
+    margin: 0rem 2rem;
+    display: flex;  
+    justify-content: space-evenly;
+    gap: 7rem;
+    background-color: rgb(223, 223, 223);
+}
+
+.footer a {
+    color: rgb(80, 79, 79);
+
+}
+
+.section1 {
+    width: 10%;
+    height: auto;
+}
+
+.infobar h2 {
+    font-size: 1rem;
+    color: rgb(71, 71, 71);
+
+}
+
+.infobar ul {
+    width: auto;
+    list-style: none;
+    display: block;
+}
+
+.infobar ul li {
+    margin: .5rem;
+    color: rgb(104, 102, 102);
+    cursor: pointer;
+
+}
+
+.infobar ul li:hover {
+    text-decoration: underline;
+}
+
+/* footer nav  */
+.nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(223, 223, 223);
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.2rem;
+}
+
+.nav ul li {
+    color: rgb(97, 95, 95);
+    cursor: pointer;
+}
+
+.nav ul a {
+    padding-right: 3.9rem;
+    color: rgb(97, 95, 95);
+}
+
+.nav .ind {
+    padding-left: 4.1rem;
+}
+
+.nav ul li:hover {
+    text-decoration: underline;
+    color: rgb(27, 27, 27);
+}
