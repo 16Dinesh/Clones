@@ -6,28 +6,28 @@ document.addEventListener("DOMContentLoaded", function () {
     const totTime = document.querySelector(".tot-time");
     const volumeBar = document.getElementById("volumeBar");
 
-    playButton.addEventListener("click", function () {
+    playButton.addEventListener("click", () => {
         if (audioPlayer.paused) {
             audioPlayer.play();
-            playButton.src = "./assets/player_icon3.png"; 
+            playButton.src = "./assets/player_icon3.png";
         } else {
             audioPlayer.pause();
-            playButton.src = "./assets/pause1.png"; 
+            playButton.src = "./assets/pause1.png";
         }
     });
 
-    audioPlayer.addEventListener("timeupdate", function () {
+    audioPlayer.addEventListener("timeupdate", () => {
         progressBar.value = (audioPlayer.currentTime / audioPlayer.duration) * 100;
         currTime.textContent = formatTime(audioPlayer.currentTime);
         totTime.textContent = formatTime(audioPlayer.duration);
     });
 
-    progressBar.addEventListener("input", function () {
+    progressBar.addEventListener("input", () => {
         const seekTime = (audioPlayer.duration * this.value) / 100;
         audioPlayer.currentTime = seekTime;
     });
 
-    volumeBar.addEventListener("input", function () {
+    volumeBar.addEventListener("input", () => {
         audioPlayer.volume = this.value / 100;
     });
 
