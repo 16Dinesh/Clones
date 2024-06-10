@@ -182,8 +182,9 @@ button i {
 
 .img3 {
     position: absolute;
-    margin-top: 7.4rem;
-    margin-left: -60.5rem;
+    margin-top: 4.4rem;
+    margin-left: -45.5rem;
+    margin-right: 1.5rem;
     width: 100%;
     height: auto;
 }
@@ -213,7 +214,7 @@ button i {
 .sec1 {
     color: black;
     background-color: rgb(255, 250, 250);
-    background-image: url(AppleVisionPro623-removebg-preview.png);
+    background-image: url(Ass/AppleVisionPro623-removebg-preview.png);
     background-repeat: no-repeat;
     background-size: 54rem;
     background-position: bottom;
